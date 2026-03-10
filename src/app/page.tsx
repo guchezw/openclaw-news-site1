@@ -64,7 +64,7 @@ export default function Home() {
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-[#AF98FF] via-[#9B7FE8] to-[#8A6EE5]">
+    <main className="min-h-screen" style={{ background: 'linear-gradient(135deg, #AF98FF 0%, #9B7FE8 50%, #8A6EE5 100%)' }}>
       {/* Header */}
       <header className="py-12 px-4">
         <div className="max-w-4xl mx-auto text-center">
@@ -117,22 +117,22 @@ export default function Home() {
               </h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <a href="https://docs.openclaw.ai" target="_blank" className="bg-gradient-to-br from-[#7A5CE9] to-[#5B3DB8] text-white p-6 rounded-xl hover:-translate-y-1 hover:shadow-xl transition-all">
+              <a href="https://docs.openclaw.ai" target="_blank" className="text-white p-6 rounded-xl hover:-translate-y-1 hover:shadow-xl transition-all" style={{ background: 'linear-gradient(135deg, #7A5CE9 0%, #5B3DB8 100%)' }}>
                 <span className="text-4xl block mb-3">📚</span>
                 <h3 className="text-lg font-bold mb-1">官方文档</h3>
                 <p className="text-white/90 text-sm">完整的使用指南</p>
               </a>
-              <a href="https://github.com/openclaw/openclaw" target="_blank" className="bg-gradient-to-br from-[#7A5CE9] to-[#5B3DB8] text-white p-6 rounded-xl hover:-translate-y-1 hover:shadow-xl transition-all">
+              <a href="https://github.com/openclaw/openclaw" target="_blank" className="text-white p-6 rounded-xl hover:-translate-y-1 hover:shadow-xl transition-all" style={{ background: 'linear-gradient(135deg, #7A5CE9 0%, #5B3DB8 100%)' }}>
                 <span className="text-4xl block mb-3">💻</span>
                 <h3 className="text-lg font-bold mb-1">GitHub</h3>
                 <p className="text-white/90 text-sm">源代码和 Issues</p>
               </a>
-              <a href="https://discord.com/invite/clawd" target="_blank" className="bg-gradient-to-br from-[#7A5CE9] to-[#5B3DB8] text-white p-6 rounded-xl hover:-translate-y-1 hover:shadow-xl transition-all">
+              <a href="https://discord.com/invite/clawd" target="_blank" className="text-white p-6 rounded-xl hover:-translate-y-1 hover:shadow-xl transition-all" style={{ background: 'linear-gradient(135deg, #7A5CE9 0%, #5B3DB8 100%)' }}>
                 <span className="text-4xl block mb-3">💬</span>
                 <h3 className="text-lg font-bold mb-1">Discord</h3>
                 <p className="text-white/90 text-sm">开发者交流</p>
               </a>
-              <a href="https://clawhub.com" target="_blank" className="bg-gradient-to-br from-[#7A5CE9] to-[#5B3DB8] text-white p-6 rounded-xl hover:-translate-y-1 hover:shadow-xl transition-all">
+              <a href="https://clawhub.com" target="_blank" className="text-white p-6 rounded-xl hover:-translate-y-1 hover:shadow-xl transition-all" style={{ background: 'linear-gradient(135deg, #7A5CE9 0%, #5B3DB8 100%)' }}>
                 <span className="text-4xl block mb-3">🛒</span>
                 <h3 className="text-lg font-bold mb-1">ClawHub</h3>
                 <p className="text-white/90 text-sm">技能市场</p>
@@ -180,7 +180,8 @@ export default function Home() {
                 <button
                   type="submit"
                   disabled={submitting}
-                  className="w-full bg-gradient-to-r from-[#7A5CE9] to-[#5B3DB8] text-white px-8 py-4 rounded-xl font-bold text-lg hover:shadow-lg hover:-translate-y-0.5 transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-md"
+                  className="w-full text-white px-8 py-4 rounded-xl font-bold text-lg hover:shadow-lg hover:-translate-y-0.5 transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-md"
+                  style={{ background: 'linear-gradient(90deg, #7A5CE9 0%, #5B3DB8 100%)' }}
                 >
                   {submitting ? '提交中...' : '提交留言 🦞'}
                 </button>
