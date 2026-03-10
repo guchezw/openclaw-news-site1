@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenClaw 资讯站 - AI 助手框架最新动态</title>
+    <meta name="description" content="OpenClaw AI 助手框架最新资讯、更新日志、社区动态">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🦞 OpenClaw 资讯站</h1>
+            <p class="subtitle">AI 助手框架 · 最新动态 · 社区资讯</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- 最新资讯 -->
+        <section class="news-section">
+            <h2>📰 OpenClaw 最新资讯</h2>
+            <div id="news-list" class="news-list">
+                <div class="loading">加载中...</div>
+            </div>
+        </section>
+
+        <!-- 官方资源 -->
+        <section class="resources-section">
+            <h2>🔗 官方资源</h2>
+            <div class="resources-grid">
+                <a href="https://docs.openclaw.ai" target="_blank" class="resource-card">
+                    <span class="icon">📚</span>
+                    <h3>官方文档</h3>
+                    <p>完整的使用指南和 API 文档</p>
+                </a>
+                <a href="https://github.com/openclaw/openclaw" target="_blank" class="resource-card">
+                    <span class="icon">💻</span>
+                    <h3>GitHub 仓库</h3>
+                    <p>源代码、Issues 和 Releases</p>
+                </a>
+                <a href="https://discord.com/invite/clawd" target="_blank" class="resource-card">
+                    <span class="icon">💬</span>
+                    <h3>Discord 社区</h3>
+                    <p>加入开发者社区交流</p>
+                </a>
+                <a href="https://clawhub.com" target="_blank" class="resource-card">
+                    <span class="icon">🛒</span>
+                    <h3>ClawHub 技能市场</h3>
+                    <p>发现和安装 Agent Skills</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- 更新日志 -->
+        <section class="changelog-section">
+            <h2>📝 最近更新</h2>
+            <div id="changelog-list" class="changelog-list">
+                <div class="loading">加载中...</div>
+            </div>
+        </section>
+
+        <!-- 留言板 -->
+        <section class="guestbook-section">
+            <h2>💬 留言板</h2>
+            <p class="section-desc">欢迎分享你的使用体验、建议或问题</p>
+            <div id="guestbook-form" class="guestbook-form">
+                <input type="text" id="guest-name" placeholder="你的称呼（可选）" maxlength="50">
+                <textarea id="guest-message" placeholder="写下你的想法、建议或使用体验..." maxlength="1000" rows="4"></textarea>
+                <button onclick="submitGuestbook()">提交留言</button>
+            </div>
+            <div id="guestbook-list" class="guestbook-list">
+                <div class="loading">加载中...</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 OpenClaw 资讯站 | 非官方网站，资讯来源于公开渠道</p>
+            <p class="update-time">最后更新：<span id="last-update">-</span></p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

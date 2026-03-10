@@ -1,0 +1,27 @@
+============================================================
+🦞 OpenClaw 资讯抓取脚本
+运行时间：2026-03-10 08:00:01
+============================================================
+
+📌 获取 GitHub Releases...
+  ✓ 获取到 5 条 Releases
+
+📌 获取 GitHub Commits...
+  ✓ 获取到 3 条 Commits
+
+📌 添加官方资源...
+  ✓ 添加 3 条官方资源
+✅ 新闻数据已保存到：data/news.json
+
+============================================================
+✅ 完成！共收集 11 条资讯
+============================================================
+
+📰 最新资讯摘要:
+  1. Revert "feat(ui): add chat infrastructure modules (slice 1 o [GitHub Commits]
+  2. Revert "Update ui/src/ui/chat/export.ts"
+
+This reverts commi [GitHub Commits]
+  3. Revert "fix(ui): address review feedback on chat infra slice [GitHub Commits]
+  4. OpenClaw 官方文档 [官方文档]
+  5. Discord 开发者社区 [Discord 社区]
