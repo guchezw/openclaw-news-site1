@@ -64,7 +64,7 @@ export default function Home() {
   }
 
   return (
-    <main className="relative min-h-screen bg-gradient-to-b from-[#006994] via-[#003366] to-[#001a33]">
+    <main className="min-h-screen bg-gradient-to-b from-ocean-600 via-ocean-800 to-ocean-900">
       {/* 气泡背景动画 */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         {[...Array(15)].map((_, i) => (
@@ -101,19 +101,19 @@ export default function Home() {
         <section className="bg-white/95 backdrop-blur rounded-3xl p-8 shadow-2xl">
           <div className="flex items-center gap-3 mb-6">
             <span className="text-4xl">📰</span>
-            <h2 className="text-3xl font-bold bg-gradient-to-r from-[#ff6b35] to-[#ff4500] bg-clip-text text-transparent">
+            <h2 className="text-3xl font-bold text-lobster-600">
               OpenClaw 最新资讯
             </h2>
           </div>
-          <div className="bg-gradient-to-r from-[#fff5f0] to-[#ffe8e0] border-l-4 border-[#ff6b35] p-6 rounded-2xl">
+          <div className="bg-gradient-to-r from-lobster-50 to-lobster-100 border-l-4 border-lobster-500 p-6 rounded-2xl">
             <h3 className="text-xl font-bold text-gray-800 mb-2">
-              <a href="https://docs.openclaw.ai" target="_blank" className="text-[#ff6b35] hover:underline">
+              <a href="https://docs.openclaw.ai" target="_blank" className="text-lobster-500 hover:underline">
                 OpenClaw 文档更新
               </a>
             </h3>
             <p className="text-gray-600 mb-4">官方文档已更新，包含最新的使用指南和 API 参考。</p>
             <div className="flex gap-4">
-              <span className="inline-block bg-[#ff6b35] text-white px-4 py-1.5 rounded-full text-sm font-semibold">
+              <span className="inline-block bg-lobster-500 text-white px-4 py-1.5 rounded-full text-sm font-semibold">
                 📚 官方文档
               </span>
               <span className="inline-block text-gray-500 text-sm">
@@ -127,7 +127,7 @@ export default function Home() {
         <section className="bg-white/95 backdrop-blur rounded-3xl p-8 shadow-2xl">
           <div className="flex items-center gap-3 mb-6">
             <span className="text-4xl">🔗</span>
-            <h2 className="text-3xl font-bold bg-gradient-to-r from-[#ff6b35] to-[#ff4500] bg-clip-text text-transparent">
+            <h2 className="text-3xl font-bold text-lobster-600">
               官方资源
             </h2>
           </div>
@@ -142,7 +142,7 @@ export default function Home() {
                 key={i}
                 href={item.url}
                 target="_blank"
-                className="group bg-gradient-to-br from-[#ff6b35] to-[#ff4500] text-white p-6 rounded-2xl hover:-translate-y-1 hover:shadow-xl transition-all duration-300"
+                className="group bg-gradient-to-br from-lobster-500 to-lobster-600 text-white p-6 rounded-2xl hover:-translate-y-1 hover:shadow-xl transition-all duration-300"
               >
                 <span className="text-4xl block mb-3">{item.icon}</span>
                 <h3 className="text-lg font-bold mb-1">{item.title}</h3>
@@ -156,14 +156,14 @@ export default function Home() {
         <section className="bg-white/95 backdrop-blur rounded-3xl p-8 shadow-2xl">
           <div className="flex items-center gap-3 mb-3">
             <span className="text-4xl">💬</span>
-            <h2 className="text-3xl font-bold bg-gradient-to-r from-[#ff6b35] to-[#ff4500] bg-clip-text text-transparent">
+            <h2 className="text-3xl font-bold text-lobster-600">
               留言板
             </h2>
           </div>
           <p className="text-gray-600 mb-8">欢迎分享你的使用体验、建议或问题</p>
 
           {/* 表单 */}
-          <form onSubmit={handleSubmit} className="bg-gradient-to-r from-[#fff5f0] to-[#ffe8e0] p-6 rounded-2xl mb-8 border-2 border-[#ffccbc]">
+          <form onSubmit={handleSubmit} className="bg-gradient-to-r from-lobster-50 to-lobster-100 p-6 rounded-2xl mb-8 border-2 border-lobster-200">
             <div className="space-y-4">
               <div>
                 <label className="block text-sm font-semibold text-gray-700 mb-2">称呼（可选）</label>
@@ -173,7 +173,7 @@ export default function Home() {
                   onChange={(e) => setName(e.target.value)}
                   placeholder="怎么称呼？"
                   maxLength={50}
-                  className="w-full px-4 py-3 border-2 border-[#ffccbc] rounded-xl focus:outline-none focus:border-[#ff6b35] focus:ring-2 focus:ring-[#ff6b35]/20 transition-all bg-white"
+                  className="w-full px-4 py-3 border-2 border-lobster-200 rounded-xl focus:outline-none focus:border-lobster-500 focus:ring-2 focus:ring-lobster-500/20 transition-all bg-white"
                 />
               </div>
               <div>
@@ -185,13 +185,13 @@ export default function Home() {
                   maxLength={1000}
                   rows={4}
                   required
-                  className="w-full px-4 py-3 border-2 border-[#ffccbc] rounded-xl focus:outline-none focus:border-[#ff6b35] focus:ring-2 focus:ring-[#ff6b35]/20 transition-all bg-white resize-none"
+                  className="w-full px-4 py-3 border-2 border-lobster-200 rounded-xl focus:outline-none focus:border-lobster-500 focus:ring-2 focus:ring-lobster-500/20 transition-all bg-white resize-none"
                 />
               </div>
               <button
                 type="submit"
                 disabled={submitting}
-                className="bg-gradient-to-r from-[#ff6b35] to-[#ff4500] text-white px-8 py-3 rounded-xl font-bold hover:shadow-lg hover:-translate-y-0.5 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+                className="bg-gradient-to-r from-lobster-500 to-lobster-600 text-white px-8 py-3 rounded-xl font-bold hover:shadow-lg hover:-translate-y-0.5 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {submitting ? '提交中...' : '提交留言 🦞'}
               </button>
@@ -203,7 +203,7 @@ export default function Home() {
             <div className="flex items-center gap-3">
               <h3 className="text-2xl font-bold text-gray-800">最新留言</h3>
               {guestbookEntries.length > 0 && (
-                <span className="bg-[#ff6b35] text-white px-3 py-1 rounded-full text-sm font-semibold">
+                <span className="bg-lobster-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
                   {guestbookEntries.length} 条
                 </span>
               )}
@@ -211,7 +211,7 @@ export default function Home() {
             {loading ? (
               <div className="text-center py-12 text-gray-500">加载中...</div>
             ) : guestbookEntries.length === 0 ? (
-              <div className="text-center py-12 bg-[#fff5f0] rounded-2xl border-2 border-dashed border-[#ffccbc]">
+              <div className="text-center py-12 bg-lobster-50 rounded-2xl border-2 border-dashed border-lobster-200">
                 <span className="text-6xl block mb-4">🦞</span>
                 <p className="text-gray-500">暂无留言，快来抢沙发！</p>
               </div>
@@ -220,22 +220,22 @@ export default function Home() {
                 {guestbookEntries.map((entry) => (
                   <div
                     key={entry.id}
-                    className="bg-gradient-to-r from-[#fff5f0] to-[#ffe8e0] border-l-4 border-[#ff6b35] p-6 rounded-2xl"
+                    className="bg-gradient-to-r from-lobster-50 to-lobster-100 border-l-4 border-lobster-500 p-6 rounded-2xl"
                   >
-                    <div className="flex items-start justify-between gap-4 mb-3">
-                      <div className="flex items-center gap-3">
-                        <div className="w-12 h-12 rounded-full bg-gradient-to-r from-[#ff6b35] to-[#ff4500] text-white flex items-center justify-center font-bold text-lg shadow-lg">
-                          {entry.name ? entry.name[0].toUpperCase() : '🦞'}
-                        </div>
-                        <div>
+                    <div className="flex items-start gap-4 mb-3">
+                      <div className="w-12 h-12 rounded-full bg-gradient-to-r from-lobster-500 to-lobster-600 text-white flex items-center justify-center font-bold text-lg shadow-lg flex-shrink-0">
+                        {entry.name ? entry.name[0].toUpperCase() : '🦞'}
+                      </div>
+                      <div className="flex-1">
+                        <div className="flex items-center justify-between mb-1">
                           <div className="font-bold text-gray-800">{entry.name || '匿名用户'}</div>
                           <div className="text-sm text-gray-500">
                             {new Date(entry.created_at).toLocaleDateString('zh-CN')}
                           </div>
                         </div>
+                        <p className="text-gray-700 whitespace-pre-wrap leading-relaxed">{entry.message}</p>
                       </div>
                     </div>
-                    <p className="text-gray-700 whitespace-pre-wrap pl-15">{entry.message}</p>
                   </div>
                 ))}
               </div>
