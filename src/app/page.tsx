@@ -65,11 +65,12 @@ export default function Home() {
 
   return (
     <main className="min-h-screen py-12 px-4" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}>
+      {/* 容器：限制宽度 + 水平居中 */}
       <div className="max-w-2xl mx-auto">
         
-        {/* Header */}
+        {/* Header：完全居中 */}
         <header className="text-center mb-12">
-          <div className="inline-block mb-4 text-6xl">🦞</div>
+          <div className="text-6xl mb-4">🦞</div>
           <h1 className="text-4xl md:text-5xl font-black text-white mb-3">
             OpenClaw 资讯站
           </h1>
@@ -81,15 +82,15 @@ export default function Home() {
         {/* 主卡片 */}
         <div className="bg-white rounded-3xl shadow-2xl p-6 md:p-10">
           
-          {/* 最新资讯 */}
-          <section className="mb-10 text-center">
-            <div className="flex items-center justify-center gap-3 mb-6">
-              <span className="text-4xl">📰</span>
-              <h2 className="text-2xl md:text-3xl font-bold text-gray-800">
+          {/* 最新资讯：标题居中，内容左对齐 */}
+          <section className="mb-10">
+            <div className="text-center mb-6">
+              <div className="inline-block text-4xl mr-3">📰</div>
+              <h2 className="inline-block text-2xl md:text-3xl font-bold text-gray-800">
                 OpenClaw 最新资讯
               </h2>
             </div>
-            <div className="bg-gradient-to-r from-orange-50 to-red-50 border-l-4 border-orange-500 p-6 rounded-xl text-left">
+            <div className="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-xl">
               <h3 className="text-lg md:text-xl font-bold text-gray-800 mb-2">
                 <a href="https://docs.openclaw.ai" target="_blank" className="text-orange-500 hover:underline">
                   OpenClaw 文档更新
@@ -107,56 +108,56 @@ export default function Home() {
             </div>
           </section>
 
-          {/* 官方资源 */}
-          <section className="mb-10 text-center">
-            <div className="flex items-center justify-center gap-3 mb-6">
-              <span className="text-4xl">🔗</span>
-              <h2 className="text-2xl md:text-3xl font-bold text-gray-800">
+          {/* 官方资源：完全居中 */}
+          <section className="mb-10">
+            <div className="text-center mb-6">
+              <div className="inline-block text-4xl mr-3">🔗</div>
+              <h2 className="inline-block text-2xl md:text-3xl font-bold text-gray-800">
                 官方资源
               </h2>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <a href="https://docs.openclaw.ai" target="_blank" className="text-white p-6 rounded-xl hover:-translate-y-1 hover:shadow-xl transition-all block" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}>
-                <span className="text-4xl block mb-3">📚</span>
+              <a href="https://docs.openclaw.ai" target="_blank" className="text-white p-6 rounded-xl hover:-translate-y-1 hover:shadow-xl transition-all block text-center" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}>
+                <div className="text-4xl mb-3">📚</div>
                 <h3 className="text-lg font-bold mb-1">官方文档</h3>
                 <p className="text-white/90 text-sm">完整的使用指南</p>
               </a>
-              <a href="https://github.com/openclaw/openclaw" target="_blank" className="text-white p-6 rounded-xl hover:-translate-y-1 hover:shadow-xl transition-all block" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}>
-                <span className="text-4xl block mb-3">💻</span>
+              <a href="https://github.com/openclaw/openclaw" target="_blank" className="text-white p-6 rounded-xl hover:-translate-y-1 hover:shadow-xl transition-all block text-center" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}>
+                <div className="text-4xl mb-3">💻</div>
                 <h3 className="text-lg font-bold mb-1">GitHub</h3>
                 <p className="text-white/90 text-sm">源代码和 Issues</p>
               </a>
-              <a href="https://discord.com/invite/clawd" target="_blank" className="text-white p-6 rounded-xl hover:-translate-y-1 hover:shadow-xl transition-all block" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}>
-                <span className="text-4xl block mb-3">💬</span>
+              <a href="https://discord.com/invite/clawd" target="_blank" className="text-white p-6 rounded-xl hover:-translate-y-1 hover:shadow-xl transition-all block text-center" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}>
+                <div className="text-4xl mb-3">💬</div>
                 <h3 className="text-lg font-bold mb-1">Discord</h3>
                 <p className="text-white/90 text-sm">开发者交流</p>
               </a>
-              <a href="https://clawhub.com" target="_blank" className="text-white p-6 rounded-xl hover:-translate-y-1 hover:shadow-xl transition-all block" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}>
-                <span className="text-4xl block mb-3">🛒</span>
+              <a href="https://clawhub.com" target="_blank" className="text-white p-6 rounded-xl hover:-translate-y-1 hover:shadow-xl transition-all block text-center" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}>
+                <div className="text-4xl mb-3">🛒</div>
                 <h3 className="text-lg font-bold mb-1">ClawHub</h3>
                 <p className="text-white/90 text-sm">技能市场</p>
               </a>
             </div>
           </section>
 
-          {/* 留言板 */}
-          <section className="text-center">
-            <div className="flex items-center justify-center gap-3 mb-3">
-              <div className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center">
-                <svg className="w-6 h-6 text-gray-600" fill="currentColor" viewBox="0 0 24 24">
+          {/* 留言板：完全居中 */}
+          <section>
+            <div className="text-center mb-6">
+              <div className="inline-block w-10 h-10 rounded-full bg-gray-100 align-middle mr-3">
+                <svg className="w-6 h-6 text-gray-600 m-2" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/>
                 </svg>
               </div>
-              <h2 className="text-2xl md:text-3xl font-bold text-gray-800">
+              <h2 className="inline-block text-2xl md:text-3xl font-bold text-gray-800 align-middle">
                 留言板
               </h2>
+              <div className="h-1 w-16 bg-purple-600 mx-auto mt-3"></div>
             </div>
-            <div className="h-1 w-16 bg-purple-600 mx-auto mb-6"></div>
             <p className="text-gray-600 mb-8 text-center">
               欢迎分享你的使用体验、建议或问题
             </p>
 
-            {/* 表单 */}
+            {/* 表单：完全居中 */}
             <form onSubmit={handleSubmit} className="mb-10">
               <div className="space-y-4">
                 <input
@@ -165,7 +166,7 @@ export default function Home() {
                   onChange={(e) => setName(e.target.value)}
                   placeholder="你的称呼 (可选)"
                   maxLength={50}
-                  className="w-full px-4 py-4 border-2 border-gray-200 rounded-xl focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all bg-white text-base text-center"
+                  className="w-full px-4 py-4 border-2 border-gray-200 rounded-xl focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all bg-white text-base text-center placeholder:text-center"
                 />
                 <textarea
                   value={message}
@@ -174,7 +175,7 @@ export default function Home() {
                   maxLength={1000}
                   rows={5}
                   required
-                  className="w-full px-4 py-4 border-2 border-gray-200 rounded-xl focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all bg-white text-base resize-none text-center"
+                  className="w-full px-4 py-4 border-2 border-gray-200 rounded-xl focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all bg-white text-base resize-none text-center placeholder:text-center"
                 />
                 <button
                   type="submit"
@@ -187,12 +188,12 @@ export default function Home() {
               </div>
             </form>
 
-            {/* 留言列表 */}
+            {/* 留言列表：标题居中，卡片左对齐 */}
             <div className="space-y-4">
-              <div className="flex items-center justify-center gap-3">
-                <h3 className="text-xl font-bold text-gray-800">最新留言</h3>
+              <div className="text-center">
+                <h3 className="inline-block text-xl font-bold text-gray-800">最新留言</h3>
                 {guestbookEntries.length > 0 && (
-                  <span className="bg-purple-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  <span className="inline-block bg-purple-600 text-white px-3 py-1 rounded-full text-sm font-semibold ml-3">
                     {guestbookEntries.length} 条
                   </span>
                 )}
@@ -201,7 +202,7 @@ export default function Home() {
                 <div className="text-center py-12 text-gray-500">加载中...</div>
               ) : guestbookEntries.length === 0 ? (
                 <div className="text-center py-12 bg-gray-50 rounded-xl">
-                  <span className="text-6xl block mb-4">🦞</span>
+                  <div className="text-6xl mb-4">🦞</div>
                   <p className="text-gray-500">暂无留言，快来抢沙发！</p>
                 </div>
               ) : (
@@ -230,7 +231,7 @@ export default function Home() {
           </section>
         </div>
 
-        {/* Footer */}
+        {/* Footer：完全居中 */}
         <footer className="text-center text-white/80 mt-8">
           <div className="text-3xl mb-3">🦞 🦞 🦞</div>
           <p className="font-semibold">© 2026 OpenClaw 资讯站</p>
