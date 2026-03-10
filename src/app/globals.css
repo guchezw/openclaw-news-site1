@@ -14,9 +14,5 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
-}
-
-/* 确保所有文字和元素可以居中 */
-* {
-  text-align: unset;
+  text-align: center;
 }
