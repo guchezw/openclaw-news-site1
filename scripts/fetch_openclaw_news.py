@@ -172,6 +172,44 @@ def save_news_data(news_data):
     print(f"✅ 新闻数据已保存到：{news_file}")
 
 
+def commit_and_push():
+    """提交更改并推送到 GitHub，触发 Vercel 部署"""
+    import subprocess
+    
+    print("\n📌 提交更改到 Git...")
+    try:
+        os.chdir(SITE_DIR)
+        
+        # 检查是否有更改
+        result = subprocess.run(['git', 'status', '--porcelain'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
+        if not result.stdout.strip():
+            print("  ✓ 没有更改，跳过提交")
+            return
+        
+        # 添加更改
+        subprocess.run(['git', 'add', '-A'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
+        print("  ✓ 已添加更改")
+        
+        # 提交
+        timestamp = datetime.now().strftime('%Y-%m-%d %H:%M')
+        commit_msg = f"chore: 自动更新资讯 {timestamp}"
+        subprocess.run(['git', 'commit', '-m', commit_msg], stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
+        print(f"  ✓ 已提交：{commit_msg}")
+        
+        # 推送
+        print("\n📌 推送到 GitHub...")
+        subprocess.run(['git', 'push'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
+        print("  ✓ 已推送到 GitHub")
+        print("  → Vercel 将自动部署更新")
+        
+    except subprocess.CalledProcessError as e:
+        print(f"⚠️  Git 操作失败：{e}", file=sys.stderr)
+        if e.stderr:
+            print(f"  错误信息：{e.stderr.decode('utf-8')}", file=sys.stderr)
+    except Exception as e:
+        print(f"⚠️  Git 操作失败：{e}", file=sys.stderr)
+
+
 def main():
     """主函数"""
     print("=" * 60)
@@ -229,6 +267,9 @@ def main():
     print("\n📰 最新资讯摘要:")
     for i, item in enumerate(unique_news[:5], 1):
         print(f"  {i}. {item['title']} [{item['source']}]")
+    
+    # 提交并推送到 GitHub
+    commit_and_push()
     
     return 0
 
