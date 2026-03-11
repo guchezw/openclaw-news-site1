@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "title": "OpenClaw v2026.3.9 发布 - 备份功能、Talk 模式改进、多平台修复",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.9",
+      "summary": "重大更新：新增 CLI 备份功能（openclaw backup create/verify），Talk 模式支持自定义静默超时，TUI 自动推断 agent，浏览器中继支持 WSL2 跨命名空间，修复 Telegram/Matrix/Feishu 多平台路由问题，TUI 主题自动检测浅色背景。共 20+ 项改进和修复。",
+      "source": "GitHub Releases",
+      "date": 1741622400000
+    },
+    {
       "title": "Allow ACP sessions.patch lineage fields on ACP session keys ",
       "url": "https://github.com/openclaw/openclaw/commit/425bd89b48dd4c01966b1633943717b2d9896a7f",
       "summary": "Author: xaeon2026",

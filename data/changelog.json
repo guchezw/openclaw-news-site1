@@ -1,6 +1,35 @@
 {
   "releases": [
     {
+      "version": "v2026.3.9",
+      "date": 1741622400000,
+      "changes": [
+        "新增 CLI 备份功能：openclaw backup create/verify，支持本地状态归档、配置备份、manifest 验证",
+        "macOS 远程模式：添加远程 gateway token 字段，保留现有非明文配置值",
+        "Talk 模式：新增 talk.silenceTimeoutMs 配置，可自定义静默等待时间后自动发送转录内容",
+        "TUI 改进：在配置的工作区内启动时自动推断活跃 agent",
+        "Web 搜索工具：新增 brave.mode: llm-context 选项，支持返回带来源元数据的提取片段",
+        "CLI 版本输出：包含简短 git commit hash（当元数据可用时）",
+        "ACP 溯源：支持可选的 ACP ingress provenance 元数据和可见回执注入",
+        "Web 搜索提供商：按字母顺序排列，多 key 自动检测优先 Grok",
+        "文档更新：恢复 Brave 搜索$5/月免费额度详情，更新计划名称",
+        "修复 macOS LaunchAgent 重启问题：在更新引导前重新启用禁用的服务",
+        "修复 Android 分发：移除自更新、后台定位、屏幕录制和后台麦克风捕获",
+        "修复 Telegram DM 路由：每个 agent 去重，避免重复回复",
+        "修复 Cron/Telegram 通知投递：纯文本通知正确路由到出站适配器",
+        "修复 Matrix DM 路由：安全 fallback 检测，优先显式房间绑定",
+        "修复 Feishu 插件 onboarding：安装后清除缓存，避免重复提示",
+        "修复插件 onboarding：优先使用 bundled 插件而非 npm 重复安装",
+        "修复配置快照：保持 secrets-runtime-resolved 配置完整",
+        "修复 Gateway 控制面板：正确解析 bundled dashboard 资源",
+        "修复浏览器扩展中继：支持 browser.relayBindHost 绑定非 loopback 地址（WSL2 等）",
+        "修复浏览器 CDP：规范化 loopback WebSocket URL，支持 Browserless 容器端点",
+        "修复浏览器中继：短暂等待 Chrome 标签重新出现，减少断连错误",
+        "修复 macOS/Tailscale gateway 发现：保持 Serve probing 活跃，优先直接传输",
+        "修复 TUI 主题：自动检测浅色终端背景，支持 OPENCLAW_THEME=light|dark 覆盖"
+      ]
+    },
+    {
       "version": "v2026.3.8",
       "date": 1741363200000,
       "changes": [
