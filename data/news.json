@@ -1,84 +1,63 @@
 {
   "news": [
     {
-      "title": "fix(agents): include azure-openai in Responses API store ove",
-      "url": "https://github.com/openclaw/openclaw/commit/dc4441322f9dc15f19de7bb89c3b2daf703d71e6",
-      "summary": "Author: ademczuk",
-      "source": "GitHub Commits",
-      "date": 1773217035090
-    },
-    {
-      "title": "fix(telegram): fall back on ambiguous first preview sends",
-      "url": "https://github.com/openclaw/openclaw/commit/a2e30824e6232f115b619ec064dafff9d98d5c34",
-      "summary": "Author: Ayaan Zaidi",
-      "source": "GitHub Commits",
-      "date": 1773217035090
-    },
-    {
-      "title": "fix(telegram): prevent duplicate messages with slow LLM prov",
-      "url": "https://github.com/openclaw/openclaw/commit/e37e1ed24e9145ccf68a838a3136a3c91321aeda",
-      "summary": "Author: Wayne",
-      "source": "GitHub Commits",
-      "date": 1773217035090
-    },
-    {
-      "title": "OpenClaw 官方文档",
-      "url": "https://docs.openclaw.ai",
-      "summary": "查看 OpenClaw 完整文档，包括安装指南、工具使用、技能开发、配置说明等完整教程。",
-      "source": "官方文档",
-      "date": 1773217035090
-    },
-    {
-      "title": "Discord 开发者社区",
-      "url": "https://discord.com/invite/clawd",
-      "summary": "加入 OpenClaw Discord 社区，与其他开发者和用户交流经验、获取支持、分享技能。",
-      "source": "Discord 社区",
-      "date": 1773217035090
-    },
-    {
-      "title": "ClawHub 技能市场",
-      "url": "https://clawhub.com",
-      "summary": "浏览和安装各种 Agent Skills，扩展你的 OpenClaw 助手能力。发现社区开发的实用技能。",
-      "source": "ClawHub 技能市场",
-      "date": 1773217035090
-    },
-    {
       "title": "openclaw 2026.3.8",
       "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.8",
       "summary": "Mac assets on this release reuse the beta artifact line from v2026.3.8-beta.1.\n\n\n### Changes\n\n- CLI/backup: add `openclaw backup create` and `openclaw backup verify` for local state archives, including `--only-config`, `--no-include-workspace`, manifest/payload validation, and backup guidance in des",
       "source": "GitHub",
-      "date": 1773217034926
+      "date": 1773224399414
     },
     {
       "title": "openclaw 2026.3.8-beta.1",
       "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.8-beta.1",
       "summary": "### Changes\n\n- CLI/backup: add `openclaw backup create` and `openclaw backup verify` for local state archives, including `--only-config`, `--no-include-workspace`, manifest/payload validation, and backup guidance in destructive flows. (#40163) thanks @shichangs.\n- macOS/onboarding: add a remote gate",
       "source": "GitHub",
-      "date": 1773217034926
+      "date": 1773224399414
     },
     {
       "title": "openclaw 2026.3.7",
       "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.7",
       "summary": "\n### Changes\n\n- Agents/context engine plugin interface: add `ContextEngine` plugin slot with full lifecycle hooks (`bootstrap`, `ingest`, `assemble`, `compact`, `afterTurn`, `prepareSubagentSpawn`, `onSubagentEnded`), slot-based registry with config-driven resolution, `LegacyContextEngine` wrapper p",
       "source": "GitHub",
-      "date": 1773217034926
+      "date": 1773224399414
     },
     {
       "title": "openclaw 2026.3.7-beta.1",
       "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.7-beta.1",
       "summary": "\n### Changes\n\n- Agents/context engine plugin interface: add `ContextEngine` plugin slot with full lifecycle hooks (`bootstrap`, `ingest`, `assemble`, `compact`, `afterTurn`, `prepareSubagentSpawn`, `onSubagentEnded`), slot-based registry with config-driven resolution, `LegacyContextEngine` wrapper p",
       "source": "GitHub",
-      "date": 1773217034926
+      "date": 1773224399414
     },
     {
       "title": "openclaw 2026.3.2",
       "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.2",
       "summary": "\n### Changes\n\n- Secrets/SecretRef coverage: expand SecretRef support across the full supported user-supplied credential surface (64 targets total), including runtime collectors, `openclaw secrets` planning/apply/audit flows, onboarding SecretInput UX, and related docs; unresolved refs now fail fast ",
       "source": "GitHub",
-      "date": 1773217034926
+      "date": 1773224399414
+    },
+    {
+      "title": "OpenClaw 官方文档",
+      "url": "https://docs.openclaw.ai",
+      "summary": "查看 OpenClaw 完整文档，包括安装指南、工具使用、技能开发、配置说明等完整教程。",
+      "source": "官方文档",
+      "date": 1773224399414
+    },
+    {
+      "title": "Discord 开发者社区",
+      "url": "https://discord.com/invite/clawd",
+      "summary": "加入 OpenClaw Discord 社区，与其他开发者和用户交流经验、获取支持、分享技能。",
+      "source": "Discord 社区",
+      "date": 1773224399414
+    },
+    {
+      "title": "ClawHub 技能市场",
+      "url": "https://clawhub.com",
+      "summary": "浏览和安装各种 Agent Skills，扩展你的 OpenClaw 助手能力。发现社区开发的实用技能。",
+      "source": "ClawHub 技能市场",
+      "date": 1773224399414
     }
   ],
-  "lastUpdate": 1773217035090,
+  "lastUpdate": 1773224399414,
   "sources": [
     "github",
     "docs",

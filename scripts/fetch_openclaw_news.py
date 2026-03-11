@@ -86,41 +86,7 @@ def fetch_github_releases():
     return news_items
 
 
-def fetch_github_commits():
-    """获取最近的 commits 作为更新动态"""
-    import urllib.request
-    import ssl
-    
-    news_items = []
-    
-    try:
-        ssl_context = ssl.create_default_context()
-        ssl_context.check_hostname = False
-        ssl_context.verify_mode = ssl.CERT_NONE
-        
-        req = urllib.request.Request(
-            OPENCLAW_SOURCES['github']['commits_url'],
-            headers={'User-Agent': 'OpenClaw-News-Bot/1.0'}
-        )
-        
-        with urllib.request.urlopen(req, timeout=10, context=ssl_context) as response:
-            commits = json.loads(response.read().decode('utf-8'))
-            
-            for commit in commits[:3]:
-                commit_info = commit.get('commit', {})
-                author = commit_info.get('author', {})
-                
-                news_items.append({
-                    'title': commit_info.get('message', 'Code Update')[:60],
-                    'url': commit.get('html_url', OPENCLAW_SOURCES['github']['url']),
-                    'summary': f"Author: {author.get('name', 'Unknown')}",
-                    'source': 'GitHub Commits',
-                    'date': int(datetime.now().timestamp() * 1000)
-                })
-    except Exception as e:
-        print(f"⚠️  获取 GitHub Commits 失败：{e}", file=sys.stderr)
-    
-    return news_items
+
 
 
 def generate_static_news():
@@ -224,11 +190,6 @@ def main():
     github_releases = fetch_github_releases()
     all_news.extend(github_releases)
     print(f"  ✓ 获取到 {len(github_releases)} 条 Releases")
-    
-    print("\n📌 获取 GitHub Commits...")
-    github_commits = fetch_github_commits()
-    all_news.extend(github_commits)
-    print(f"  ✓ 获取到 {len(github_commits)} 条 Commits")
     
     print("\n📌 添加官方资源...")
     static_news = generate_static_news()
