@@ -1,63 +1,63 @@
 {
   "news": [
     {
-      "title": "openclaw 2026.3.13",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.13-1",
-      "summary": "This recovery release uses `v2026.3.13-1` because GitHub immutable releases do not allow reusing `v2026.3.13` after publication.\r\n\r\nImportant:\r\n- This release exists to recover the broken `v2026.3.13` tag/release path.\r\n- The corresponding npm version is still `2026.3.13`, not `2026.3.13-1`.\r\n- The ",
-      "source": "GitHub",
-      "date": 1773705690214
-    },
-    {
-      "title": "openclaw 2026.3.13-beta.1",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.13-beta.1",
-      "summary": "Pre-release for npm beta tag `v2026.3.13-beta.1`.\n\nmacOS assets are built with stable app version `2026.3.13` so they can be reused for the later non-beta release. `appcast.xml` is intentionally unchanged in this pre-release.\n\n\n### Changes\n\n- Android/chat settings: redesign the chat settings sheet w",
-      "source": "GitHub",
-      "date": 1773705690214
-    },
-    {
-      "title": "openclaw 2026.3.12",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.12",
-      "summary": "\n### Changes\n\n- Control UI/dashboard-v2: refresh the gateway dashboard with modular overview, chat, config, agent, and session views, plus a command palette, mobile bottom tabs, and richer chat tools like slash commands, search, export, and pinned messages. (#41503) Thanks @BunsDev.\n- OpenAI/GPT-5.4",
-      "source": "GitHub",
-      "date": 1773705690214
-    },
-    {
-      "title": "openclaw 2026.3.11",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.11",
-      "summary": "\n### Security\n\n- Gateway/WebSocket: enforce browser origin validation for all browser-originated connections regardless of whether proxy headers are present, closing a cross-site WebSocket hijacking path in `trusted-proxy` mode that could grant untrusted origins `operator.admin` access. (GHSA-5wcw-8",
-      "source": "GitHub",
-      "date": 1773705690214
-    },
-    {
-      "title": "openclaw 2026.3.11-beta.1",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.11-beta.1",
-      "summary": "\n### Security\n\n- Gateway/WebSocket: enforce browser origin validation for all browser-originated connections regardless of whether proxy headers are present, closing a cross-site WebSocket hijacking path in `trusted-proxy` mode that could grant untrusted origins `operator.admin` access. (GHSA-5wcw-8",
-      "source": "GitHub",
-      "date": 1773705690214
-    },
-    {
       "title": "OpenClaw 官方文档",
       "url": "https://docs.openclaw.ai",
       "summary": "查看 OpenClaw 完整文档，包括安装指南、工具使用、技能开发、配置说明等完整教程。",
       "source": "官方文档",
-      "date": 1773705690214
+      "date": 1773792080429
     },
     {
       "title": "Discord 开发者社区",
       "url": "https://discord.com/invite/clawd",
       "summary": "加入 OpenClaw Discord 社区，与其他开发者和用户交流经验、获取支持、分享技能。",
       "source": "Discord 社区",
-      "date": 1773705690214
+      "date": 1773792080429
     },
     {
       "title": "ClawHub 技能市场",
       "url": "https://clawhub.com",
       "summary": "浏览和安装各种 Agent Skills，扩展你的 OpenClaw 助手能力。发现社区开发的实用技能。",
       "source": "ClawHub 技能市场",
-      "date": 1773705690214
+      "date": 1773792080429
+    },
+    {
+      "title": "openclaw 2026.3.13",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.13-1",
+      "summary": "This recovery release uses `v2026.3.13-1` because GitHub immutable releases do not allow reusing `v2026.3.13` after publication.\r\n\r\nImportant:\r\n- This release exists to recover the broken `v2026.3.13` tag/release path.\r\n- The corresponding npm version is still `2026.3.13`, not `2026.3.13-1`.\r\n- The ",
+      "source": "GitHub",
+      "date": 1773792080428
+    },
+    {
+      "title": "openclaw 2026.3.13-beta.1",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.13-beta.1",
+      "summary": "Pre-release for npm beta tag `v2026.3.13-beta.1`.\n\nmacOS assets are built with stable app version `2026.3.13` so they can be reused for the later non-beta release. `appcast.xml` is intentionally unchanged in this pre-release.\n\n\n### Changes\n\n- Android/chat settings: redesign the chat settings sheet w",
+      "source": "GitHub",
+      "date": 1773792080428
+    },
+    {
+      "title": "openclaw 2026.3.12",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.12",
+      "summary": "\n### Changes\n\n- Control UI/dashboard-v2: refresh the gateway dashboard with modular overview, chat, config, agent, and session views, plus a command palette, mobile bottom tabs, and richer chat tools like slash commands, search, export, and pinned messages. (#41503) Thanks @BunsDev.\n- OpenAI/GPT-5.4",
+      "source": "GitHub",
+      "date": 1773792080428
+    },
+    {
+      "title": "openclaw 2026.3.11",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.11",
+      "summary": "\n### Security\n\n- Gateway/WebSocket: enforce browser origin validation for all browser-originated connections regardless of whether proxy headers are present, closing a cross-site WebSocket hijacking path in `trusted-proxy` mode that could grant untrusted origins `operator.admin` access. (GHSA-5wcw-8",
+      "source": "GitHub",
+      "date": 1773792080428
+    },
+    {
+      "title": "openclaw 2026.3.11-beta.1",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.11-beta.1",
+      "summary": "\n### Security\n\n- Gateway/WebSocket: enforce browser origin validation for all browser-originated connections regardless of whether proxy headers are present, closing a cross-site WebSocket hijacking path in `trusted-proxy` mode that could grant untrusted origins `operator.admin` access. (GHSA-5wcw-8",
+      "source": "GitHub",
+      "date": 1773792080428
     }
   ],
-  "lastUpdate": 1773705690214,
+  "lastUpdate": 1773792080429,
   "sources": [
     "github",
     "docs",
