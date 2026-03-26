@@ -1,63 +1,63 @@
 {
   "news": [
     {
+      "title": "openclaw 2026.3.24",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.24",
+      "summary": "### Breaking\n\n### Changes\n\n- Gateway/OpenAI compatibility: add `/v1/models` and `/v1/embeddings`, and forward explicit model overrides through `/v1/chat/completions` and `/v1/responses` for broader client and RAG compatibility. Thanks @vincentkoc.\n- Agents/tools: make `/tools` show the tools the cur",
+      "source": "GitHub",
+      "date": 1774483335616
+    },
+    {
+      "title": "openclaw 2026.3.24-beta.2",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.24-beta.2",
+      "summary": "### Fixes\n\n- Outbound media/local files: align outbound media access with the configured fs policy so host-local files and inbound-media paths keep sending when `workspaceOnly` is off, while strict workspace-only agents remain sandboxed.\n- Runtime/install: lower the supported Node 22 floor to `22.14",
+      "source": "GitHub",
+      "date": 1774483335616
+    },
+    {
+      "title": "openclaw 2026.3.24-beta.1",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.24-beta.1",
+      "summary": "## 2026.3.24-beta.1\n\n### Breaking\n\n### Changes\n\n- Gateway/OpenAI compatibility: add `/v1/models` and `/v1/embeddings`, and forward explicit model overrides through `/v1/chat/completions` and `/v1/responses` for broader client and RAG compatibility. Thanks @vincentkoc.\n- Agents/tools: make `/tools` s",
+      "source": "GitHub",
+      "date": 1774483335616
+    },
+    {
       "title": "2026.3.23",
       "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.23",
       "summary": "### Breaking\n\n### Changes\n\n- ModelStudio/Qwen: add standard (pay-as-you-go) DashScope endpoints for China and global Qwen API keys alongside the existing Coding Plan endpoints, and relabel the provider group to `Qwen (Alibaba Cloud Model Studio)`. (#43878)\n- UI/clarity: consolidate button primitives",
       "source": "GitHub",
-      "date": 1774396942750
+      "date": 1774483335616
     },
     {
       "title": "openclaw 2026.3.22",
       "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.22",
       "summary": "## 2026.3.22\n\n### Breaking\n\n- Plugins/install: bare `openclaw plugins install <package>` now prefers ClawHub before npm for npm-safe names, and only falls back to npm when ClawHub does not have that package or version. Docs: https://docs.openclaw.ai/tools/clawhub\n- Browser/Chrome MCP: remove the leg",
       "source": "GitHub",
-      "date": 1774396942750
-    },
-    {
-      "title": "openclaw 2026.3.22-beta.1",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.22-beta.1",
-      "summary": "Pre-release for npm beta tag `v2026.3.22-beta.1`.\n\nNo new macOS app build is attached to this beta. macOS assets remain on stable app version `2026.3.22`, and `appcast.xml` is intentionally unchanged in this pre-release.\n\n### Breaking\n\n- Plugins/install: bare `openclaw plugins install <package>` now",
-      "source": "GitHub",
-      "date": 1774396942750
-    },
-    {
-      "title": "openclaw 2026.3.13",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.13-1",
-      "summary": "This recovery release uses `v2026.3.13-1` because GitHub immutable releases do not allow reusing `v2026.3.13` after publication.\r\n\r\nImportant:\r\n- This release exists to recover the broken `v2026.3.13` tag/release path.\r\n- The corresponding npm version is still `2026.3.13`, not `2026.3.13-1`.\r\n- The ",
-      "source": "GitHub",
-      "date": 1774396942750
-    },
-    {
-      "title": "openclaw 2026.3.13-beta.1",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.13-beta.1",
-      "summary": "Pre-release for npm beta tag `v2026.3.13-beta.1`.\n\nmacOS assets are built with stable app version `2026.3.13` so they can be reused for the later non-beta release. `appcast.xml` is intentionally unchanged in this pre-release.\n\n\n### Changes\n\n- Android/chat settings: redesign the chat settings sheet w",
-      "source": "GitHub",
-      "date": 1774396942750
+      "date": 1774483335616
     },
     {
       "title": "OpenClaw 官方文档",
       "url": "https://docs.openclaw.ai",
       "summary": "查看 OpenClaw 完整文档，包括安装指南、工具使用、技能开发、配置说明等完整教程。",
       "source": "官方文档",
-      "date": 1774396942750
+      "date": 1774483335616
     },
     {
       "title": "Discord 开发者社区",
       "url": "https://discord.com/invite/clawd",
       "summary": "加入 OpenClaw Discord 社区，与其他开发者和用户交流经验、获取支持、分享技能。",
       "source": "Discord 社区",
-      "date": 1774396942750
+      "date": 1774483335616
     },
     {
       "title": "ClawHub 技能市场",
       "url": "https://clawhub.com",
       "summary": "浏览和安装各种 Agent Skills，扩展你的 OpenClaw 助手能力。发现社区开发的实用技能。",
       "source": "ClawHub 技能市场",
-      "date": 1774396942750
+      "date": 1774483335616
     }
   ],
-  "lastUpdate": 1774396942750,
+  "lastUpdate": 1774483335616,
   "sources": [
     "github",
     "docs",
