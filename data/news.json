@@ -1,63 +1,63 @@
 {
   "news": [
     {
-      "title": "OpenClaw 官方文档",
-      "url": "https://docs.openclaw.ai",
-      "summary": "查看 OpenClaw 完整文档，包括安装指南、工具使用、技能开发、配置说明等完整教程。",
-      "source": "官方文档",
-      "date": 1774915516318
+      "title": "openclaw 2026.3.31",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.31",
+      "summary": "### Breaking\n\n- Nodes/exec: remove the duplicated `nodes.run` shell wrapper from the CLI and agent `nodes` tool so node shell execution always goes through `exec host=node`, keeping node-specific capabilities on `nodes invoke` and the dedicated media/location/notify actions.\n- Plugin SDK: deprecate ",
+      "source": "GitHub",
+      "date": 1775001737075
     },
     {
-      "title": "Discord 开发者社区",
-      "url": "https://discord.com/invite/clawd",
-      "summary": "加入 OpenClaw Discord 社区，与其他开发者和用户交流经验、获取支持、分享技能。",
-      "source": "Discord 社区",
-      "date": 1774915516318
-    },
-    {
-      "title": "ClawHub 技能市场",
-      "url": "https://clawhub.com",
-      "summary": "浏览和安装各种 Agent Skills，扩展你的 OpenClaw 助手能力。发现社区开发的实用技能。",
-      "source": "ClawHub 技能市场",
-      "date": 1774915516318
+      "title": "OpenClaw 2026.3.31-beta.1",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.31-beta.1",
+      "summary": "\n### Breaking\n\n- Nodes/exec: remove the duplicated `nodes.run` shell wrapper from the CLI and agent `nodes` tool so node shell execution always goes through `exec host=node`, keeping node-specific capabilities on `nodes invoke` and the dedicated media/location/notify actions.\n- Plugin SDK: deprecate",
+      "source": "GitHub",
+      "date": 1775001737075
     },
     {
       "title": "openclaw 2026.3.28",
       "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.28",
       "summary": "\n### Breaking\n\n- Providers/Qwen: remove the deprecated `qwen-portal-auth` OAuth integration for `portal.qwen.ai`; migrate to Model Studio with `openclaw onboard --auth-choice modelstudio-api-key`. (#52709) Thanks @pomelo-nwu.\n- Config/Doctor: drop automatic config migrations older than two months; v",
       "source": "GitHub",
-      "date": 1774915516317
+      "date": 1775001737075
     },
     {
       "title": "OpenClaw 2026.3.28-beta.1",
       "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.28-beta.1",
       "summary": "## 2026.3.28-beta.1\n\n### Breaking\n\n- Providers/Qwen: remove the deprecated `qwen-portal-auth` OAuth integration for `portal.qwen.ai`; migrate to Model Studio with `openclaw onboard --auth-choice modelstudio-api-key`. (#52709) Thanks @pomelo-nwu.\n- Config/Doctor: drop automatic config migrations olde",
       "source": "GitHub",
-      "date": 1774915516317
+      "date": 1775001737075
     },
     {
       "title": "openclaw 2026.3.24",
       "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.24",
       "summary": "### Breaking\n\n### Changes\n\n- Gateway/OpenAI compatibility: add `/v1/models` and `/v1/embeddings`, and forward explicit model overrides through `/v1/chat/completions` and `/v1/responses` for broader client and RAG compatibility. Thanks @vincentkoc.\n- Agents/tools: make `/tools` show the tools the cur",
       "source": "GitHub",
-      "date": 1774915516317
+      "date": 1775001737075
     },
     {
-      "title": "openclaw 2026.3.24-beta.2",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.24-beta.2",
-      "summary": "### Fixes\n\n- Outbound media/local files: align outbound media access with the configured fs policy so host-local files and inbound-media paths keep sending when `workspaceOnly` is off, while strict workspace-only agents remain sandboxed.\n- Runtime/install: lower the supported Node 22 floor to `22.14",
-      "source": "GitHub",
-      "date": 1774915516317
+      "title": "OpenClaw 官方文档",
+      "url": "https://docs.openclaw.ai",
+      "summary": "查看 OpenClaw 完整文档，包括安装指南、工具使用、技能开发、配置说明等完整教程。",
+      "source": "官方文档",
+      "date": 1775001737075
     },
     {
-      "title": "openclaw 2026.3.24-beta.1",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.24-beta.1",
-      "summary": "## 2026.3.24-beta.1\n\n### Breaking\n\n### Changes\n\n- Gateway/OpenAI compatibility: add `/v1/models` and `/v1/embeddings`, and forward explicit model overrides through `/v1/chat/completions` and `/v1/responses` for broader client and RAG compatibility. Thanks @vincentkoc.\n- Agents/tools: make `/tools` s",
-      "source": "GitHub",
-      "date": 1774915516317
+      "title": "Discord 开发者社区",
+      "url": "https://discord.com/invite/clawd",
+      "summary": "加入 OpenClaw Discord 社区，与其他开发者和用户交流经验、获取支持、分享技能。",
+      "source": "Discord 社区",
+      "date": 1775001737075
+    },
+    {
+      "title": "ClawHub 技能市场",
+      "url": "https://clawhub.com",
+      "summary": "浏览和安装各种 Agent Skills，扩展你的 OpenClaw 助手能力。发现社区开发的实用技能。",
+      "source": "ClawHub 技能市场",
+      "date": 1775001737075
     }
   ],
-  "lastUpdate": 1774915516318,
+  "lastUpdate": 1775001737075,
   "sources": [
     "github",
     "docs",
