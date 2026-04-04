@@ -1,63 +1,63 @@
 {
   "news": [
     {
-      "title": "openclaw 2026.4.2",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.2",
-      "summary": "\n### Breaking\n\n- Plugins/xAI: move `x_search` settings from the legacy core `tools.web.x_search.*` path to the plugin-owned `plugins.entries.xai.config.xSearch.*` path, standardize `x_search` auth on `plugins.entries.xai.config.webSearch.apiKey` / `XAI_API_KEY`, and migrate legacy config with `openc",
-      "source": "GitHub",
-      "date": 1775174535937
-    },
-    {
-      "title": "openclaw 2026.4.1",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.1",
-      "summary": "## 2026.4.1\n\n### Changes\n\n- Tasks/chat: add `/tasks` as a chat-native background task board for the current session, with recent task details and agent-local fallback counts when no linked tasks are visible. Related #54226. Thanks @vincentkoc.\n- Web search/SearXNG: add the bundled SearXNG provider p",
-      "source": "GitHub",
-      "date": 1775174535937
-    },
-    {
-      "title": "OpenClaw 2026.4.1-beta.1",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.1-beta.1",
-      "summary": "### Changes\n\n- Tasks/chat: add `/tasks` as a chat-native background task board for the current session, with recent task details and agent-local fallback counts when no linked tasks are visible. Related #54226. Thanks @vincentkoc.\n- Web search/SearXNG: add the bundled SearXNG provider plugin for `we",
-      "source": "GitHub",
-      "date": 1775174535937
-    },
-    {
-      "title": "openclaw 2026.3.31",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.31",
-      "summary": "### Breaking\n\n- Nodes/exec: remove the duplicated `nodes.run` shell wrapper from the CLI and agent `nodes` tool so node shell execution always goes through `exec host=node`, keeping node-specific capabilities on `nodes invoke` and the dedicated media/location/notify actions.\n- Plugin SDK: deprecate ",
-      "source": "GitHub",
-      "date": 1775174535937
-    },
-    {
-      "title": "OpenClaw 2026.3.31-beta.1",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.31-beta.1",
-      "summary": "\n### Breaking\n\n- Nodes/exec: remove the duplicated `nodes.run` shell wrapper from the CLI and agent `nodes` tool so node shell execution always goes through `exec host=node`, keeping node-specific capabilities on `nodes invoke` and the dedicated media/location/notify actions.\n- Plugin SDK: deprecate",
-      "source": "GitHub",
-      "date": 1775174535937
-    },
-    {
       "title": "OpenClaw 官方文档",
       "url": "https://docs.openclaw.ai",
       "summary": "查看 OpenClaw 完整文档，包括安装指南、工具使用、技能开发、配置说明等完整教程。",
       "source": "官方文档",
-      "date": 1775174535937
+      "date": 1775260872454
     },
     {
       "title": "Discord 开发者社区",
       "url": "https://discord.com/invite/clawd",
       "summary": "加入 OpenClaw Discord 社区，与其他开发者和用户交流经验、获取支持、分享技能。",
       "source": "Discord 社区",
-      "date": 1775174535937
+      "date": 1775260872454
     },
     {
       "title": "ClawHub 技能市场",
       "url": "https://clawhub.com",
       "summary": "浏览和安装各种 Agent Skills，扩展你的 OpenClaw 助手能力。发现社区开发的实用技能。",
       "source": "ClawHub 技能市场",
-      "date": 1775174535937
+      "date": 1775260872454
+    },
+    {
+      "title": "openclaw 2026.4.2",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.2",
+      "summary": "\n### Breaking\n\n- Plugins/xAI: move `x_search` settings from the legacy core `tools.web.x_search.*` path to the plugin-owned `plugins.entries.xai.config.xSearch.*` path, standardize `x_search` auth on `plugins.entries.xai.config.webSearch.apiKey` / `XAI_API_KEY`, and migrate legacy config with `openc",
+      "source": "GitHub",
+      "date": 1775260872453
+    },
+    {
+      "title": "openclaw 2026.4.1",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.1",
+      "summary": "## 2026.4.1\n\n### Changes\n\n- Tasks/chat: add `/tasks` as a chat-native background task board for the current session, with recent task details and agent-local fallback counts when no linked tasks are visible. Related #54226. Thanks @vincentkoc.\n- Web search/SearXNG: add the bundled SearXNG provider p",
+      "source": "GitHub",
+      "date": 1775260872453
+    },
+    {
+      "title": "OpenClaw 2026.4.1-beta.1",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.1-beta.1",
+      "summary": "### Changes\n\n- Tasks/chat: add `/tasks` as a chat-native background task board for the current session, with recent task details and agent-local fallback counts when no linked tasks are visible. Related #54226. Thanks @vincentkoc.\n- Web search/SearXNG: add the bundled SearXNG provider plugin for `we",
+      "source": "GitHub",
+      "date": 1775260872453
+    },
+    {
+      "title": "openclaw 2026.3.31",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.31",
+      "summary": "### Breaking\n\n- Nodes/exec: remove the duplicated `nodes.run` shell wrapper from the CLI and agent `nodes` tool so node shell execution always goes through `exec host=node`, keeping node-specific capabilities on `nodes invoke` and the dedicated media/location/notify actions.\n- Plugin SDK: deprecate ",
+      "source": "GitHub",
+      "date": 1775260872453
+    },
+    {
+      "title": "OpenClaw 2026.3.31-beta.1",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.31-beta.1",
+      "summary": "\n### Breaking\n\n- Nodes/exec: remove the duplicated `nodes.run` shell wrapper from the CLI and agent `nodes` tool so node shell execution always goes through `exec host=node`, keeping node-specific capabilities on `nodes invoke` and the dedicated media/location/notify actions.\n- Plugin SDK: deprecate",
+      "source": "GitHub",
+      "date": 1775260872453
     }
   ],
-  "lastUpdate": 1775174535937,
+  "lastUpdate": 1775260872454,
   "sources": [
     "github",
     "docs",
