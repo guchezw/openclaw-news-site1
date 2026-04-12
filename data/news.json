@@ -1,63 +1,63 @@
 {
   "news": [
     {
+      "title": "openclaw 2026.4.10",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.10",
+      "summary": "## 2026.4.10\n\n### Changes\n\n- Models/Codex: add the bundled Codex provider and plugin-owned app-server harness so `codex/gpt-*` models use Codex-managed auth, native threads, model discovery, and compaction while `openai/gpt-*` stays on the normal OpenAI provider path. (#64298)\n- Memory/Active Memory",
+      "source": "GitHub",
+      "date": 1775952138050
+    },
+    {
       "title": "openclaw 2026.4.9",
       "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.9",
       "summary": "### Changes\n\n- Memory/dreaming: add a grounded REM backfill lane with historical `rem-harness --path`, diary commit/reset flows, cleaner durable-fact extraction, and live short-term promotion integration so old daily notes can replay into Dreams and durable memory without a second memory stack. Than",
       "source": "GitHub",
-      "date": 1775865773519
+      "date": 1775952138050
     },
     {
       "title": "openclaw 2026.4.9-beta.1",
       "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.9-beta.1",
       "summary": "\n### Changes\n\n- Memory/dreaming: add a grounded REM backfill lane with historical `rem-harness --path`, diary commit/reset flows, cleaner durable-fact extraction, and live short-term promotion integration so old daily notes can replay into Dreams and durable memory without a second memory stack. Tha",
       "source": "GitHub",
-      "date": 1775865773519
+      "date": 1775952138050
     },
     {
       "title": "openclaw 2026.4.8",
       "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.8",
       "summary": "\n### Fixes\n\n- Telegram/setup: load setup and secret contracts through packaged top-level sidecars so installed npm builds no longer try to import missing `dist/extensions/telegram/src/*` files during gateway startup.\n- Bundled channels/setup: load shared secret contracts through packaged top-level s",
       "source": "GitHub",
-      "date": 1775865773519
-    },
-    {
-      "title": "openclaw 2026.4.7",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.7",
-      "summary": "### Changes\n- CLI/infer: add a first-class `openclaw infer ...` hub for provider-backed inference workflows across model, media, web, and embedding tasks. Thanks @Takhoffman.\n- Tools/media generation: auto-fallback across auth-backed image, music, and video providers by default, preserve intent duri",
-      "source": "GitHub",
-      "date": 1775865773519
-    },
-    {
-      "title": "openclaw 2026.4.5",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.5",
-      "summary": "### Breaking\n\n- Config: remove legacy public config aliases such as `talk.voiceId` / `talk.apiKey`, `agents.*.sandbox.perSession`, `browser.ssrfPolicy.allowPrivateNetwork`, `hooks.internal.handlers`, and channel/group/room `allow` toggles in favor of the canonical public paths and `enabled`, while k",
-      "source": "GitHub",
-      "date": 1775865773519
+      "date": 1775952138050
     },
     {
       "title": "OpenClaw 官方文档",
       "url": "https://docs.openclaw.ai",
       "summary": "查看 OpenClaw 完整文档，包括安装指南、工具使用、技能开发、配置说明等完整教程。",
       "source": "官方文档",
-      "date": 1775865773519
+      "date": 1775952138050
     },
     {
       "title": "Discord 开发者社区",
       "url": "https://discord.com/invite/clawd",
       "summary": "加入 OpenClaw Discord 社区，与其他开发者和用户交流经验、获取支持、分享技能。",
       "source": "Discord 社区",
-      "date": 1775865773519
+      "date": 1775952138050
     },
     {
       "title": "ClawHub 技能市场",
       "url": "https://clawhub.com",
       "summary": "浏览和安装各种 Agent Skills，扩展你的 OpenClaw 助手能力。发现社区开发的实用技能。",
       "source": "ClawHub 技能市场",
-      "date": 1775865773519
+      "date": 1775952138050
+    },
+    {
+      "title": "openclaw 2026.4.11-beta.1",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.11-beta.1",
+      "summary": "\n### Changes\n\n- Dreaming/memory-wiki: add ChatGPT import ingestion plus new `Imported Insights` and `Memory Palace` diary subtabs so Dreaming can inspect imported source chats, compiled wiki pages, and full source pages directly from the UI. (#64505)\n- Control UI/webchat: render assistant media/repl",
+      "source": "GitHub",
+      "date": 1775952138049
     }
   ],
-  "lastUpdate": 1775865773519,
+  "lastUpdate": 1775952138050,
   "sources": [
     "github",
     "docs",
