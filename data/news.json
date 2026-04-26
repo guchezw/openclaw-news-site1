@@ -1,63 +1,63 @@
 {
   "news": [
     {
-      "title": "openclaw 2026.4.23",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.23",
-      "summary": "## 2026.4.23\n\n### Changes\n\n- Providers/OpenAI: add image generation and reference-image editing through Codex OAuth, so `openai/gpt-image-2` works without an `OPENAI_API_KEY`. Fixes #70703.\n- Providers/OpenRouter: add image generation and reference-image editing through `image_generate`, so OpenRout",
+      "title": "openclaw 2026.4.24",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.24",
+      "summary": "## 2026.4.24\n\n### Highlights\n\n- Google Meet joins OpenClaw as a bundled participant plugin, with personal Google auth, Chrome/Twilio realtime sessions, paired-node Chrome support, artifact/attendance exports, and recovery tooling for already-open Meet tabs.\n- DeepSeek V4 Flash and V4 Pro are in the ",
       "source": "GitHub",
-      "date": 1777075329918
+      "date": 1777161735586
     },
     {
-      "title": "openclaw 2026.4.23-beta.6",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.23-beta.6",
-      "summary": "## 2026.4.23\n\n### Changes\n\n- Providers/OpenAI: add image generation and reference-image editing through Codex OAuth, so `openai/gpt-image-2` works without an `OPENAI_API_KEY`. Fixes #70703.\n- Providers/OpenRouter: add image generation and reference-image editing through `image_generate`, so OpenRout",
+      "title": "openclaw 2026.4.24-beta.5",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.24-beta.5",
+      "summary": "## 2026.4.24\n\n### Highlights\n\n- Google Meet joins OpenClaw as a bundled participant plugin, with personal Google auth, Chrome/Twilio realtime sessions, paired-node Chrome support, artifact/attendance exports, and recovery tooling for already-open Meet tabs.\n- DeepSeek V4 Flash and V4 Pro are in the ",
       "source": "GitHub",
-      "date": 1777075329918
+      "date": 1777161735586
     },
     {
-      "title": "OpenClaw 2026.4.23 beta 5",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.23-beta.5",
-      "summary": "## 2026.4.23\n\n### Changes\n\n- Providers/OpenAI: add image generation and reference-image editing through Codex OAuth, so `openai/gpt-image-2` works without an `OPENAI_API_KEY`. Fixes #70703.\n- Providers/OpenRouter: add image generation and reference-image editing through `image_generate`, so OpenRout",
+      "title": "openclaw 2026.4.24-beta.4",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.24-beta.4",
+      "summary": "## 2026.4.24\n\n### Highlights\n\n- Google Meet joins OpenClaw as a bundled participant plugin, with personal Google auth, Chrome/Twilio realtime sessions, paired-node Chrome support, artifact/attendance exports, and recovery tooling for already-open Meet tabs.\n- DeepSeek V4 Flash and V4 Pro are in the ",
       "source": "GitHub",
-      "date": 1777075329918
+      "date": 1777161735586
     },
     {
-      "title": "openclaw 2026.4.23-beta.4",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.23-beta.4",
-      "summary": "\n### Changes\n\n- Providers/OpenAI: add image generation and reference-image editing through Codex OAuth, so `openai/gpt-image-2` works without an `OPENAI_API_KEY`. Fixes #70703.\n- Providers/OpenRouter: add image generation and reference-image editing through `image_generate`, so OpenRouter image mode",
+      "title": "openclaw 2026.4.24-beta.3",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.24-beta.3",
+      "summary": "## 2026.4.24\n\n### Highlights\n\n- Google Meet joins OpenClaw as a bundled participant plugin, with personal Google auth, Chrome/Twilio realtime sessions, paired-node Chrome support, artifact/attendance exports, and recovery tooling for already-open Meet tabs.\n- DeepSeek V4 Flash and V4 Pro are in the ",
       "source": "GitHub",
-      "date": 1777075329918
+      "date": 1777161735586
     },
     {
-      "title": "openclaw 2026.4.22",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.22",
-      "summary": "## 2026.4.22\n\n### Changes\n\n- Providers/xAI: add image generation, text-to-speech, and speech-to-text support, including `grok-imagine-image` / `grok-imagine-image-pro`, reference-image edits, six live xAI voices, MP3/WAV/PCM/G.711 TTS formats, `grok-stt` audio transcription, and xAI realtime transcr",
+      "title": "OpenClaw 2026.4.24 beta 2",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.24-beta.2",
+      "summary": "Beta 2 fixes packaged bundled-plugin runtime mirrors on Windows and other copied-runtime installs so shared package-root dependencies remain resolvable during npm updates.\n\nIt also keeps future bundled plugins disabled while older hosts perform the updater step from 2026.4.23, avoiding compatibility",
       "source": "GitHub",
-      "date": 1777075329918
+      "date": 1777161735586
     },
     {
       "title": "OpenClaw 官方文档",
       "url": "https://docs.openclaw.ai",
       "summary": "查看 OpenClaw 完整文档，包括安装指南、工具使用、技能开发、配置说明等完整教程。",
       "source": "官方文档",
-      "date": 1777075329918
+      "date": 1777161735586
     },
     {
       "title": "Discord 开发者社区",
       "url": "https://discord.com/invite/clawd",
       "summary": "加入 OpenClaw Discord 社区，与其他开发者和用户交流经验、获取支持、分享技能。",
       "source": "Discord 社区",
-      "date": 1777075329918
+      "date": 1777161735586
     },
     {
       "title": "ClawHub 技能市场",
       "url": "https://clawhub.com",
       "summary": "浏览和安装各种 Agent Skills，扩展你的 OpenClaw 助手能力。发现社区开发的实用技能。",
       "source": "ClawHub 技能市场",
-      "date": 1777075329918
+      "date": 1777161735586
     }
   ],
-  "lastUpdate": 1777075329918,
+  "lastUpdate": 1777161735586,
   "sources": [
     "github",
     "docs",
