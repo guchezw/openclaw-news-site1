@@ -5,59 +5,59 @@
       "url": "https://docs.openclaw.ai",
       "summary": "查看 OpenClaw 完整文档，包括安装指南、工具使用、技能开发、配置说明等完整教程。",
       "source": "官方文档",
-      "date": 1786406527988
+      "date": 1786492891481
     },
     {
       "title": "Discord 开发者社区",
       "url": "https://discord.com/invite/clawd",
       "summary": "加入 OpenClaw Discord 社区，与其他开发者和用户交流经验、获取支持、分享技能。",
       "source": "Discord 社区",
-      "date": 1786406527988
+      "date": 1786492891481
     },
     {
       "title": "ClawHub 技能市场",
       "url": "https://clawhub.com",
       "summary": "浏览和安装各种 Agent Skills，扩展你的 OpenClaw 助手能力。发现社区开发的实用技能。",
       "source": "ClawHub 技能市场",
-      "date": 1786406527988
+      "date": 1786492891481
     },
     {
       "title": "openclaw 2026.7.1-2",
       "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.7.1-2",
       "summary": "\n### Fixes\n\n- **npm plugin updates:** accept singleton-array metadata from newer npm clients so tracked official plugins can install and update to correction releases. (#108336)\n\n",
       "source": "GitHub",
-      "date": 1786406527987
+      "date": 1786492891480
     },
     {
       "title": "openclaw 2026.7.1-1",
       "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.7.1-1",
       "summary": "\n### Fixes\n\n- **Codex progress replies:** keep app-server turns running after delivered progress messages so GPT/Codex reaches its authoritative terminal response instead of stopping mid-turn. (#106961, #108487) Thanks @joshavant.\n- **Memory Core startup repair:** recover derived legacy-index and ca",
       "source": "GitHub",
-      "date": 1786406527987
+      "date": 1786492891480
     },
     {
       "title": "openclaw 2026.6.34",
       "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.6.34",
       "summary": "## 2026.6.34\n\n### Highlights\n\n- **Safer browser and network boundaries:** sandboxed browser routes, trusted DNS targets, custom browser origins, and loopback provider endpoints now reject unsafe access paths. (#97958, #38290, #103075, #110693) Thanks @eleqtrizit, @brunowowk, @mosidevv, @pgondhi987, ",
       "source": "GitHub",
-      "date": 1786406527987
+      "date": 1786492891480
     },
     {
       "title": "openclaw 2026.7.2-beta.7",
       "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.7.2-beta.7",
       "summary": "## 2026.7.2\n\n### Highlights\n\n- **State safety and recovery:** protect persisted data with a quarantine store that survives primary-database damage, crash-recoverable SQLite snapshots, crash-durable filesystem publication, schema-upgrade data-loss rejection, and rollback-writer snapshot recovery. (#1",
       "source": "GitHub",
-      "date": 1786406527987
+      "date": 1786492891480
     },
     {
       "title": "openclaw 2026.7.2-beta.6",
       "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.7.2-beta.6",
       "summary": "## 2026.7.2\n\n### Highlights\n\n- **State safety and recovery:** protect persisted data with a quarantine store that survives primary-database damage, crash-recoverable SQLite snapshots, crash-durable filesystem publication, schema-upgrade data-loss rejection, and rollback-writer snapshot recovery. (#1",
       "source": "GitHub",
-      "date": 1786406527987
+      "date": 1786492891480
     }
   ],
-  "lastUpdate": 1786406527988,
+  "lastUpdate": 1786492891481,
   "sources": [
     "github",
     "docs",
